@@ -18,7 +18,3 @@ To run your own JMeter test plan:
 - copy the test plan into docker-jig/jmeter/test
 - edit docker-compose.yml and replace the value of the JMETER_TEST environment variable with the file name of your test plan
 - run `docker-compose up` again to execute your test plan
-
-## Want to learn more about it?
-Want to learn more about how this solution actually works and how I implemented it? Feel free to read the [medium article](https://medium.com/@ellenhuang523/a-docker-solution-to-jmeter-influxdb-grafana-performance-testing-568848de7a0f)!
-
